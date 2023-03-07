@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
 import About from "./pages/About";
-import {Route, Routes} from "react-router-dom";
+import {Routes, Route} from "react-router-dom";
 
 
 function App() {

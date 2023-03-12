@@ -22,7 +22,7 @@ function App() {
 }
 
 // es6 features in javascript //
-// https://www.youtube.com/watch?v=NCwa_xi0Uuc&t=1316s
+// https://www.youtube.com/watch?1035v=NCwa_xi0Uuc&t=1316s
 
 const Person = {
   name: "Eugene",

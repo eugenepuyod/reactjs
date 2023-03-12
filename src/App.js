@@ -196,6 +196,11 @@ console.log(chelsey.name)
 // We can use curly once you add more object/ methods in one module
 // import Teachers from "./teachers"
 // put this to the top else it will get an errors this is for tuturial puposes
+
+// Default -> import ... from  '';
+import Teacherss, { promote } from "./teacherss";
+
+// Named -> import { ... } from '';
 import { Teacherss } from "./teacherss";
 
 

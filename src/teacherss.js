@@ -9,7 +9,7 @@ export function promote(){}
 
 //}
 
-export class Teacherss extends CoolPersoneds {
+export default class Teacherss extends CoolPersoneds {
     constructor(name, degree){
       // Once you add a custom constructor you must add the super class inside you custom contructor
       super(name);

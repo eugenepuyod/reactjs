@@ -194,9 +194,10 @@ console.log(chelsey.name)
 // Note
 // Name export you can export more object in one module
 // We can use curly once you add more object/ methods in one module
-// import Teachers from "./teachers";
+// import Teachers from "./teachers"
+// put this to the top else it will get an errors this is for tuturial puposes
+import { Teacherss } from "./teacherss";
 
-import { Teachers, promote } from "./teachers";
 
 
 

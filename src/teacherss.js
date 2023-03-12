@@ -1,4 +1,4 @@
-import { CoolPersoned } from "./coolPersoned";
+import { CoolPersoneds } from "./coolPersoneds";
 
 export function promote(){}
 
@@ -9,7 +9,7 @@ export function promote(){}
 
 //}
 
-export class Teachers extends CoolPersoned {
+export class Teacherss extends CoolPersoneds {
     constructor(name, degree){
       // Once you add a custom constructor you must add the super class inside you custom contructor
       super(name);

@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <div className="container">
+      <div className="container newConainer">
         <Routes>
           <Route path="/" element={ <Home />} />
           <Route path="/pricing" element={ <Pricing />} />
@@ -20,6 +20,8 @@ function App() {
     </div>
   )
 }
+
+
 
 
 export default App;

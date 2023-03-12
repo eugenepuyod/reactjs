@@ -173,13 +173,21 @@ class CoolPersoned {
 }
 
 class Teachers extends CoolPersoned {
+  constructor(name, degree){
+    // Once you add a custom constructor you must add the super class inside you custom contructor
+    super();
+    this.name = name;
+    this.degree = degree;
+  }
   teach(){
     console.log('Teach')
   }
 }
 
-const chelsey = new Teachers("Chelsey");
+const chelsey = new Teachers("Chelsey", "Teacher");
 console.log(chelsey.teach());
+console.log(chelsey.name)
+
 
 
 

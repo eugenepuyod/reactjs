@@ -175,8 +175,7 @@ class CoolPersoned {
 class Teachers extends CoolPersoned {
   constructor(name, degree){
     // Once you add a custom constructor you must add the super class inside you custom contructor
-    super();
-    this.name = name;
+    super(name);
     this.degree = degree;
   }
   teach(){
@@ -188,6 +187,16 @@ const chelsey = new Teachers("Chelsey", "Teacher");
 console.log(chelsey.teach());
 console.log(chelsey.name)
 
+// Module is to separte the blueprint to a single file
+// ex: coolPersoned.js and teachers.js
+// Teachers and CoolPerson are now pointing to each location file teachers.js and coolperson.js
+
+// Note
+// Name export you can export more object in one module
+// We can use curly once you add more object/ methods in one module
+// import Teachers from "./teachers";
+
+import { Teachers, promote } from "./teachers";
 
 
 

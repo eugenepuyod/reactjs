@@ -35,11 +35,11 @@ const Person = {
  walk();
 
 
-
+// old
  const squre = function(number){
   return number * number
  }
-
+// es6
  const squres = number => 
  number * number
  
@@ -49,14 +49,15 @@ const listing = [
   {id: 2, isActive: true},
   {id: 3, isActive: false}
 ]
-
+// old
 const jobs = listing.filter(function(job){ return job.isActive})
+// es6
 const job = listing.filter(job => job.isActive)
 
 console.log(job);
 
 
-
+// old
 const person = {
   talk(){
     setTimeout(function(){
@@ -64,11 +65,9 @@ const person = {
     }, 1000);
   }
 }
-
 person.talk();
 
-
-
+// es6
 const persons = {
   talk(){
     var self = this
@@ -77,7 +76,6 @@ const persons = {
     }, 1000);
   }
 }
-
 persons.talk();
 
 // arrow fuction dont rebind 'this' keyword
@@ -88,14 +86,11 @@ const personss = {
     }, 1000);
   }
 }
-
 personss.talk();
-
 
 
 const colors = ['reds', 'green', 'blue'];
 const items = colors.map(color => `<li> ${color}</li>`)
-
 console.log(items);
 
 
@@ -195,13 +190,13 @@ console.log(chelsey.name)
 // Name export you can export more object in one module
 // We can use curly once you add more object/ methods in one module
 // import Teachers from "./teachers"
-// put this to the top else it will get an errors this is for tuturial puposes
+// put this script to the top header else it will get an errors this is for tuturial puposes
 
 // Default -> import ... from  '';
-import Teacherss, { promote } from "./teacherss";
+//import Teacherss, { promote } from "./teacherss";
 
 // Named -> import { ... } from '';
-import { Teacherss } from "./teacherss";
+//import { Teacherss } from "./teacherss";
 
 
 
